@@ -31,7 +31,7 @@ def prediction(input_data):
 
 def main():
     st.title("HELP International Foundation")
-    st.subheader("A Machine Learning Model to predict required fund allocation for a countrt")
+    st.subheader("A Machine Learning Model to predict required fund allocation for a country")
     child_mor = st.text_input("Enter Child Mortality Rate")
     lf_exp=st.text_input("Enter average life expectancy")
     tol_fer=st.text_input("Enter total fertility rate")
